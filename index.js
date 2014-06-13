@@ -13,6 +13,7 @@ var NavigatableMixin          = require('./lib/NavigatableMixin');
 var environment               = require('./lib/environment');
 
 module.exports = {
+  AnimatedLocations: Router.AnimatedLocations,
   Locations: Router.Locations,
   Pages: Router.Pages,
 
